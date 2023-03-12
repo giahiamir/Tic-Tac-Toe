@@ -73,5 +73,4 @@ function restart() {
         cellsValue[parseInt(element.id)] = "";
     })
     changePlayer();
-    debugger
 }
