@@ -1,0 +1,73 @@
+@font-face {
+    font-family: marker;
+    src: url("../fonts/PermanentMarker-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: marker;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cells-box {
+    display: grid;
+    width: 450px;
+    height: 450px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cell {
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    background-color: rgb(212, 212, 212);
+    border: 2px solid #ddd;
+    cursor: pointer;
+    transition: background-color .15s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: rgb(59, 59, 59);
+}
+
+.cell:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+#status-text {
+    width: 450px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+#restart-btn {
+    width: 450px;
+    text-align: center;
+    font-size: 30px;
+    font-family: marker;
+    color: rgb(21, 174, 69);
+    transition: color .1s;
+    cursor: pointer;
+
+    margin-bottom: 40px;
+}
+
+#restart-btn:hover {
+    color: rgb(12, 118, 46);
+}
+
+#sign {
+    color: rgb(57, 92, 124);
+}
