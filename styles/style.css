@@ -12,6 +12,7 @@ body {
     scroll-margin: 0;
     font-family: marker;
     overflow: hidden;
+    position: relative;
 }
 
 #container {
