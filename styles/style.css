@@ -40,6 +40,20 @@ body {
     color: rgb(59, 59, 59);
 }
 
+@media screen and (max-width: 600px) {
+
+    #cells-box {
+        width: 270px;
+        height: 270px;
+    }
+
+    .cell {
+        width: 90px;
+        height: 90px;
+        font-size: 70px;
+    }
+}
+
 .cell:hover {
     background-color: aliceblue;
     color: black;
