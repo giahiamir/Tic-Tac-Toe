@@ -13,6 +13,8 @@ body {
     font-family: marker;
     overflow: hidden;
     position: relative;
+
+    user-select: none;
 }
 
 #container {
