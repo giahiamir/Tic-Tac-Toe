@@ -11,6 +11,7 @@ body {
     height: 100vh;
     scroll-margin: 0;
     font-family: marker;
+    overflow: hidden;
 }
 
 #container {
