@@ -30,13 +30,13 @@ body {
     height: 150px;
     box-sizing: border-box;
     background-color: rgb(212, 212, 212);
-    border: 2px solid #ddd;
+    outline: 4px solid #ddd;
     cursor: pointer;
     transition: background-color .15s;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 80px;
+    font-size: 100px;
     color: rgb(59, 59, 59);
 }
 
